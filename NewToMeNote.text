@@ -1,0 +1,108 @@
+1) "use strict";
+
+2) var --> we can redeclare the variable using the same name.
+
+3) let --> we cannot redeclare the variabel using the same name.
+
+4) primitive data type --> 1) String 2) Number 3) Boolean 4) null 5) Undefined 6) BigInt 7) Symbol
+
+5) String --> we can also access the string letters using the indexing 
+          --> use the length property to find the length.
+
+6) String methods --> 1) Slice 2) trime 3) toUppercase 4) toLowercase
+
+7) To check the data type of the variable --> typeof  --> var a = 56;  --> console.log(typeof a); --> console.log(typeof(a));
+
+8) String to Number convertion  (Type cast ) --> let a = "45"; Number(a) --> a = +"45"; 
+
+9) Number to string convertion --> let a = 67; --> console.log(a+""); --> String(a);
+
+10) Template string --> let a == 56; ---> console.log(`Hello thre ${a}`); 
+
+11) BigInt 
+    let num = BigInt(12);
+    let num1 = 123n; // --> another way to define the BigInt data.
+    We cannot add or perform any arithmatic operation on the one BigInt operands and the other any operands
+
+12) == and ===(check data type as well)
+
+13) != and !== (check data type as well)
+
+14) Truthy and Falsy Value 
+    Truthy --> 1, -1, "anything"
+    Falsy --> 0, false, null, undefined, ""
+    We can also put this truthy or falsy value for the condition.
+
+15) Referenced Data type
+    --> Array(Object) --> ordered set of mixed data --> let a = ["Prince", "kfjd", "bdbf"];
+                                            --> To check the variabel is array or object --> let a = Array.isArray(a); --> it return true or false
+    --> Object --> object literals let a = {name: "Prince", surname: "changani"};
+
+16) Array Operations --> 
+    pop and push --> this are faster in execution (It's add or remove the element from the array from end).
+    unshift(add) and shift(remove) --> this is slower as compare to push and pop (It's add or remove the element from the array from front).
+
+17) diff btw Primitive and the Reference Data type
+Primitive --> Does not preserve the changes once we copy and then change.
+Reference --> It Presereve the changes once we copy and then changes... take the example of the array
+                let array1 = ["item1", "item2"];
+                let array2 = array1;
+
+                console.log("array1: ",array1);
+                console.log("array2: ",array2);
+
+                array1.push("item3");
+                array2.push("item4");
+                console.log("added one element at the last i.e 'item3'!");
+                console.log("array1: ",array1);
+                console.log("array2: ",array2);
+
+18) Clone the array 
+    --> 1) first way to clone array (fastest among all the three ways).
+            let array2 = array1.slice(0);
+
+    --> 2) second way to clone the array
+            let array2 = [].concat(array1);
+
+    --> 3) third way to clone the array using the (spread operator --> ...)
+            let array2 = [...array1];
+
+    --> 4) concatinate two array in one
+            let array3 = ["item1", "item2"];
+            let onemoreArray = ["item3", "item4"];
+            let array4 = [].concat(array3).concat(["item3", "item4"]);
+            let array4 = [].slice(0).concat(["item3", "item4"]);
+            let array4 = [...array3].concat(["item3", "item4"]);
+            let array4 = [...array3, "item3", "item4"];
+            let array4 = [...array3, ...onemoreArray];
+
+19) Using const for creating array.
+    --> const fruits = ["apple", "banana", "graps"];
+    --> fruits.push("mangos");
+    --> fruits = ["orange", "guava"]; --> it is not possible because fruits is constant.
+
+20) For of loop in array 
+    --> const fruits = ["apple", "mango", "banana"];
+        const fruits2 = [];
+        
+        for(let fruit of fruits)
+        {
+            fruits2.push(fruit.toUpperCase());
+            // console.log(fruit);
+        }
+        console.log(fruits2);
+
+21) for in loop 
+    --> for in loop will give the index of the array elements.
+
+    const fruits = ["apple", "mango", "banana"];
+    const fruits2 = [];
+
+    for(let index in fruits)
+    {
+        fruits2.push(fruits[index].toUpperCase());
+    }
+
+    console.log(fruits2);
+
+22) Array Distructuring
