@@ -22,7 +22,7 @@ function myFunc(number, index)
 
 // numbers.forEach(myFunc);
 
-// we can defined the funciton in foreach also (which is called as an anonymous--> funciton without name is called as an anonymous funciton)
+// we can defined the funciton in foreach also (which is called as an anonymous--> function without name is called as an anonymous funciton)
 // numbers.forEach(function(number, index){
 //     console.log(`index is ${index} number is ${number}`);
 // })

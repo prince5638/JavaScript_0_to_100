@@ -16,17 +16,17 @@
 
 // --------------
 
-// case - 1
+// case-1.) 
 // console.log(hello);
 // var hello = "Hello World";
 // console.log(hello);
 
-// case - 2
+// case-2.) 
 // console.log(hello);
 // let hello = "Hello World";
-// console.log(hello);
+// console.log(hello); // Output -> Cannot access 'hello' before initialization
 
-// case - 3
+// case-3.) 
 // console.log(hello);
 // const hello = "Hello World";
-// console.log(hello);
+// console.log(hello); // Output -> Cannot access 'hello' before initialization

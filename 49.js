@@ -39,7 +39,6 @@ const myvar = "value1";
 
 function myApp(){
     
-
     function myFunc(){
         // const myvar = 58;
         const myFunc2 = ()=>

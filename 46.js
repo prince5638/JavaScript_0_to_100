@@ -6,20 +6,20 @@
 //     console.log("Hello Prince");
 // }
 
-// 2) fucniton expression
+// 2) function expression
 // const greet = function()
 // {
 //     console.log("Hello Prince");
 // }
 
-// 3) arrow fucniton
+// 3) arrow function
 // const greet = ()=>{
 //     console.log("Hello, Prince");
 // }
 
 // greet();
 
-// For arrow function --> When we are having only one paramenter then we can also renove the parenthesis which is present besides the parameters.
+// For arrow function --> When we are having only one paramenter then we can also remove the parenthesis which is present alongside the parameters.
 // const isEven = num => {
 //     return num % 2 === 0;
 // }

@@ -1,9 +1,9 @@
 // Sort method in javascript
 // --> It changes the actual array and returns that.
 
-const numbers = [1 , 5, 9, 3, 200, 156, 400];
+const numbers = [1, 5, 9, 3, 200, 156, 400];
 
-// It sorts according to the ASCII values .... it conside numbers as an string and then sort.
+// It sorts according to the ASCII values .... it consider numbers as an string and then sort.
 // const sortedNumbers = numbers.sort();
 // console.log(sortedNumbers);
 
