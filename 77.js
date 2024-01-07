@@ -1,3 +1,5 @@
+// Creating function to create multiple objects
+
 // const user = {
 //     firstName: "Prince",
 //     lastName: "Changani",

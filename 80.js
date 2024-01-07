@@ -7,7 +7,7 @@ const obj1 = {
 //     key3: "value3"
 // }
 
-// console.log(obj2.key1);  // it is giving undefined. but if we want that it should fetch the key1 from the object1 then we have to create ab object by another trick.
+// console.log(obj2.key1);  // it is giving undefined. but if we want that it should fetch the key1 from the object1 then we have to create an object by another trick.
 
 // creating an object by another method
 const obj2 = Object.create(obj1);

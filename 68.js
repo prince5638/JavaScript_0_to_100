@@ -59,7 +59,7 @@ const person1 = {
 
 const person2 = {
     id: 1,
-    firstName: "Prince"
+    firstName: "Princess"
 }
 
 // const person = new Map([['firstName', 'Prince'], ['age', 21]]);
@@ -71,3 +71,5 @@ extraInfo.set(person2, {age: 8, gender: "female"});
 console.log(person1.id);
 console.log(extraInfo.get(person1).gender);
 console.log(extraInfo.get(person2).gender);
+
+console.log(extraInfo);

@@ -17,7 +17,7 @@ for(let i of item)
 
 // Array like object
 // jinke pass length property hoti hai
-// or jinko ham indes se ham access kar sakate hai.
+// or jinko ham indes se access kar sakate hai.
 // example : string
 
 const firstNames = "prince"; 
