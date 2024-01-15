@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <script src="./102.js"></script> (1st way) Not to include js file this way -->
+    
+    <!-- <script src="./102.js" async></script> (3rd way) Not to include js file this way -->
+    
+    <!-- (4th way) It parse the html file and loads the js files simultaneously ... and when javscript loads the complete js file then it wait for the completion of parsing ... and then it executes this js file -->
+    <!-- <script src="./102.js" defer></script> -->
+    <!-- <script src="./103.js" defer></script> -->
+    <!-- <script src="./104.js" defer></script> -->
+    <!-- <script src="./105.js" defer></script> -->
+    <!-- <script src="./106.js" defer></script> -->
+    <script src="./107.js" defer></script>
+    <title>My Website</title>
 </head>
 <body>
     <header class="header">
         <nav class="container nav">
             <h1 class="logo">Website</h1>
             <ul class="nav-items">
-                <li><a href="">Home</a></li>
-                <li><a href="">Todo</a></li>
-                <li><a href="">Sign Up</a></li>
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="">Todo</a></li>
+                <li class="nav-item"><a href="">Sign Up</a></li>
             </ul>
         </nav>
         <div class="headline">
-            <h2>Manage your tasks</h2>
-            <button class="btn btn-headline">Learn More</button>
+            <h2 id="main-heading">Manage your tasks <span style="display: none;">Hello</span></h2>
+            <button utton class="btn btn-headline">Learn More</button>
         </div>
     </header>
     <section class="section-todo container">
@@ -67,5 +78,6 @@
             <button type="submit" class="btn signup-btn">Submit</button>
         </form>
     </section>
+    <!-- <script src="./102.js"></script> (2nd way) Not to include js file here also -->
 </body>
 </html>
