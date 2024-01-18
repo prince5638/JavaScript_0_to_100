@@ -19,6 +19,11 @@ a {
   color: whitesmoke;
 }
 
+.bg-dark{
+  background-color: black;
+  color: #eee;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
